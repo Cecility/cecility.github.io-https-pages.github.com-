@@ -6,6 +6,46 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,7 +75,27 @@ html {
 }
 
 .colorGray{
-    color: #6a6a6a;
+    background-color: #6a6a6a;
+}
+
+.bgHighlight{
+    background-color: #ffe6e0;
+}
+
+.bgPrimary{
+    background-color: #fcd1c7;
+}
+
+.bgDark{
+    background-color: #f0846c;
+}
+
+.bgGray{
+    background-color: #6a6a6a;
+}
+
+.bgWhite{
+    background-color: #FFFFFF;
 }
 
 .boldUpper{
@@ -47,7 +107,7 @@ html {
 /* sidebar*/
 #sidebar{
     background-color: #f0846c;
-    min-width: 250px;
+    /*min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
     text-align: left;
@@ -57,7 +117,7 @@ html {
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
-    position: fixed;
+    position: fixed;*/
 }
 
 #sidebarList{
@@ -82,7 +142,6 @@ html {
 
 /* content */
 #content{
-    padding-left: 250px;
     padding-top: 10vh;
 }
 

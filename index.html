@@ -16,43 +16,45 @@
     </head>
     
     <body>
-        <div class="wrapper">
+        <div class="wrapper bgWhite">
             
-            <!-- Side Bar -->
-            <nav class="navbar fixed-left" id="sidebar">
-            
-                
-                <ul id="sidebarProfile">
-                    <!-- this is the profile image. Please change this -->
-                    <li>
-                        <a href="#about"><img src="public/img/profilePic.png" class="rounded-circle" id="profilePic"></a>
-                    </li>
-                </ul>
-                <ul id="sidebarList">
-
-                    <li class="sidebarFont smooth-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="sidebarFont smooth-scroll">
-                        <a href="#education">Education</a>
-                    </li>
-                    <li class="sidebarFont smooth-scroll">
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li class="sidebarFont smooth-scroll">
-                        <a href="#project">Project</a>
-                    </li>
-                    <li class="sidebarFont smooth-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="sidebarFont smooth-scroll">
-                        <a href="#interests">Interests</a>
-                    </li>
-                </ul>
+            <!-- New Side bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bgDark fixed-top" id="sideNav" style="background-color: #f0846c;">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+              <span class="d-block d-lg-none">Hansol You</span>
+              <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="public/img/profilePic.png" alt="profilePic">
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                </li>
+              </ul>
+            </div>
             </nav>
         
             <!-- Content -->
-            <div class="container-fluid colorGray" id="content">
+            <div class="container-fluid" id="content">
                 <!-- About -->
                 <section class="p-3 p-lg-5 d-flex align-items-center" id="about">
                   <div class="w-100">
