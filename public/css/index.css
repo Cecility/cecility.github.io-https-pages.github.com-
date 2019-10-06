@@ -10,6 +10,33 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  color:#6a6a6a;
+}
+
+
+/* link styles */
+a:link{
+    text-decoration: none;
+    color: #fcd1c7;
+}
+
+a:visited{
+    text-decoration: none;
+    color:#fcd1c7;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffe6e0;
+}
+
+a:active{
+    text-decoration: none;
+    color:#fcd1c7;
+}
+
+
 /* Class */
 .wrapper {
     display: flex;
@@ -20,6 +47,7 @@ html {
 .sidebarFont{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    font-size: 10vw; /* doesn't work for some reason*/
 }
 
 .colorHighlight{
@@ -70,6 +98,23 @@ html {
     border: 0.5rem solid #fcd1c7;
 }
 
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -112,32 +157,8 @@ html {
 
 /* content */
 #content{
-
+}
 
 #about{
-    height: 90vh;
-}
-
-
-
-
-/* link styles */
-a:link{
-    text-decoration: none;
-    color: #fcd1c7;
-}
-
-a:visited{
-    text-decoration: none;
-    color:#fcd1c7;
-}
-
-a:hover{
-    text-decoration: none;
-    color: #ffe6e0;
-}
-
-a:active{
-    text-decoration: none;
-    color:#fcd1c7;
+    height: 98vh;
 }
