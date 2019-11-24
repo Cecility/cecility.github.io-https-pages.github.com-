@@ -23,7 +23,12 @@ a:link{
 
 a:visited{
     text-decoration: none;
-    color:#fcd1c7;
+    color: #fcd1c7;
+}
+
+a.emailAddress:visited{
+    text-decoration: none;
+    color: #fcd1c7;
 }
 
 a:hover{
@@ -31,9 +36,20 @@ a:hover{
     color: #ffe6e0;
 }
 
+a.emailAddress:hover{
+    text-decoration: none;
+    color: #ffe6e0;
+}
+
+a.dropdown-item:hover{
+    text-decoration: none;
+    background-color: transparent; 
+    color: #ffe6e0;
+}
+
 a:active{
     text-decoration: none;
-    color:#f2b79d;
+    color: #f2b79d;
 }
 
 
@@ -113,6 +129,13 @@ a:active{
   outline-color: #d48a6e;
 }
 
+.dropdown-toggle::after{
+  display: none;
+}
+
+
+
+/* mobile */
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -157,6 +180,11 @@ a:active{
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+
+  #sideNav .nav-link
+  {
+    display: none;  
   }
 }
 
