@@ -186,6 +186,10 @@ a:active{
   {
     display: none;  
   }
+    
+    .navlink{
+        display: none;
+    }
 }
 
 /* content */
@@ -199,7 +203,7 @@ a:active{
 .icon{
     color: #fcd1c7;
     font-size: 5rem;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .icon:hover{

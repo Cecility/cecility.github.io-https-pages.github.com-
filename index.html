@@ -13,6 +13,7 @@
         
         <!-- CSS -->
         <link href="public/css/index.css" rel="stylesheet">
+        <link href="public/css/fontello.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     </head>
@@ -29,7 +30,7 @@
               </span>
             </a>
                 
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!--<a class="nav-link dropdown-toggle" role="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </a>
                 
@@ -49,7 +50,33 @@
                   <a class="dropdown-item js-scroll-trigger" href="#interests">Interests</a>
 
                 </div>
-            </div>
+            </div> -->
+                
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="navbar-toggler-icon"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item js-scroll-trigger" href="#about">About</a>
+
+                      <a class="dropdown-item js-scroll-trigger" href="#education">Education</a>
+
+                      <a class="dropdown-item js-scroll-trigger" href="#experience">Experience</a>
+
+                      <a class="dropdown-item js-scroll-trigger" href="#projects">Projects</a>
+
+                      <a class="dropdown-item js-scroll-trigger" href="#skills">Skills</a>
+
+                      <a class="dropdown-item js-scroll-trigger" href="#interests">Interests</a>
+                    </div>
+                </div>  
+              </div>
             </nav>
         
             <!-- Content -->
@@ -174,17 +201,43 @@
                 <section class="p-3 p-lg-5 d-flex align-items-center" id="skills">
                   <div class="w-100">
                     <h2 class="mb-5 boldUpper colorDark">Skills</h2>
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-item d-flex flex-column flex -md-row justify-content-between mb-5">
                       <div class="resume-content">
+                          
                         <h3 class="mb-0 colorPrimary2">Programming Language</h3>
-                        <i class="devicon-java-plain icon"></i>
-                        <p> &nbsp;&nbsp;&nbsp;• Java <br> &nbsp;&nbsp;&nbsp;• C/C++ <br> &nbsp;&nbsp;&nbsp;• HTML/CSS <br> &nbsp;&nbsp;&nbsp;• JavaScript <br> &nbsp;&nbsp;&nbsp;• SQL <br> &nbsp;&nbsp;&nbsp;• JSON</p>
+                          <div class="p-3"> <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"><i class="devicon-java-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><i class="devicon-c-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/C%2B%2B"><i class="devicon-cplusplus-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/HTML5"><i class="devicon-html5-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><i class="devicon-css3-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/JavaScript"><i class="devicon-javascript-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/MySQL"><i class="devicon-mysql-plain icon"></i></a>
+                          </div>
+                        
                         <h3 class="mb-0 colorPrimary2">Tools</h3>
-                        <p> &nbsp;&nbsp;&nbsp;• Node.js <br> &nbsp;&nbsp;&nbsp;• React <br> &nbsp;&nbsp;&nbsp;• Unix <br> &nbsp;&nbsp;&nbsp;• Vim <br> &nbsp;&nbsp;&nbsp;• Eclipse <br> &nbsp;&nbsp;&nbsp;• Notepad++ <br> &nbsp;&nbsp;&nbsp;• Sublime Text2 <br> &nbsp;&nbsp;&nbsp;• Git <br> &nbsp;&nbsp;&nbsp;• Heroku <br> &nbsp;&nbsp;&nbsp;• MongoDB</p>
-                        <h3 class="mb-0 colorPrimary2">Spoken Languages</h3>
-                        <p> &nbsp;&nbsp;&nbsp;• Native Korean and English  <br> &nbsp;&nbsp;&nbsp;• conversation Japanese</p>
+                        <div class="p-3">
+                            <a href="https://en.wikipedia.org/wiki/Node.js"><i class="devicon-nodejs-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/React_(web_framework)"><i class="devicon-react-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Linux"><i class="icon-linux icon"></i></a> 
+                            <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)"><i class="devicon-vim-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/GitHub"><i class="devicon-github-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Heroku"><i class="devicon-heroku-plain icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/MongoDB"><i class="devicon-mongodb-plain icon"></i></a>
+                          </div>
+                        
+                        <h3 class="mb-0 colorPrimary2">Spoken Languages</h3>  
+                        <div>
+                            <a href="https://en.wikipedia.org/wiki/Korean_language"><i class="icon-korean icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/English_language"><i class="icon-english icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Japanese_language"><i class="icon-japanese icon"></i></a>
+                          </div>
+                          
                         <h3 class="mb-0 colorPrimary2">ETC</h3>
-                        <p> &nbsp;&nbsp;&nbsp;• Graphic Arts/Design <br> &nbsp;&nbsp;&nbsp;• Photoshop/Illustrator <br> &nbsp;&nbsp;&nbsp;• Flash <br> &nbsp;&nbsp;&nbsp;• After Effects </p>
+                        <div>
+                            <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop"><i class="icon-photoshop icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Adobe_Illustrator"><i class="icon-illustrator icon"></i></a>
+                            <a href="https://en.wikipedia.org/wiki/Adobe_After_Effects"><i class="icon-aftereffects icon"></i></a>
+                          </div>
                       </div>
                     </div>
                   </div>
