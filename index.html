@@ -31,12 +31,13 @@
             </a>
                 
                 
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarDropdownMenuLink">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div class="navbar-nav mr-auto nav-item dropdown">
+                <!-- if i replace the line above for <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">, the toggle works. but it doesnt work on desktop and the format is destroyed -->
                 <a class="dropdown-item js-scroll-trigger" href="#about">About</a>
                 <a class="dropdown-item js-scroll-trigger" href="#education">Education</a>
                 <a class="dropdown-item js-scroll-trigger" href="#experience">Experience</a>
